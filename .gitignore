@@ -1,0 +1,27 @@
+# 依赖与构建产物
+node_modules/
+frontend/
+dist/
+vendor/
+
+# 上传的用户文件（仓库只保留目录占位）
+reffolio/uploads/character/*
+reffolio/uploads/works/*
+!reffolio/uploads/**/.gitkeep
+!reffolio/uploads/**/.htaccess
+
+# 备份与系统文件
+*.zip
+*.tar.gz
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# 本地密钥与环境配置（切勿提交）
+.env
+.env.*
+reffolio/config/database.php
+*.pem
+*.key
+secrets/
